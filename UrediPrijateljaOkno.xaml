@@ -1,0 +1,29 @@
+﻿<Window x:Class="Naloga_1.PrijateljOkno"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Naloga_1"
+        xmlns:m="using:Naloga_1"
+        mc:Ignorable="d"
+        Title="UrediPrijateljaOkno" Height="450" Width="641.067">
+
+
+
+    <Grid>
+        <Label Content="Ime" HorizontalAlignment="Left" Height="30" Margin="39,18,0,0" VerticalAlignment="Top" Width="77"/>
+
+        <TextBox Name="TextBox_Ime" HorizontalAlignment="Left" Height="36" Margin="39,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" KeyUp="TextBoxes_KeyUp" />
+
+
+
+        <Button Name="Shrani" Content="Shrani" HorizontalAlignment="Left" Height="43" Margin="39,342,0,0" VerticalAlignment="Top" Width="77" Click="Shrani_Click"/>
+        <Label Content="Rojstni kraj" HorizontalAlignment="Left" Height="30" Margin="39,207,0,0" VerticalAlignment="Top" Width="77"/>
+        <Label Content="Priimek" HorizontalAlignment="Left" Height="30" Margin="39,119,0,0" VerticalAlignment="Top" Width="77"/>
+        <TextBox Name="TextBox_Rojstni_Kraj" HorizontalAlignment="Left" Height="36" Margin="39,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" KeyUp="TextBoxes_KeyUp"/>
+        <TextBox Name="TextBox_Priimek" HorizontalAlignment="Left" Height="36" Margin="39,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" KeyUp="TextBoxes_KeyUp"/>
+        <Image Name="imageProfilnaSlika" HorizontalAlignment="Left" Height="200" Margin="232,83,0,0" VerticalAlignment="Top" Width="202" />
+        <Button x:Name="buttonNalozi" Content="Naloži" HorizontalAlignment="Left" Height="18" Margin="232,288,0,0" VerticalAlignment="Top" Width="71" Click="buttonNalozi_Click" />
+        
+    </Grid>
+</Window>

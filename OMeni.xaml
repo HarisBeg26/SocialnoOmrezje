@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Naloga_1.OMeni"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Naloga_1"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="300">
+    <Grid>
+        <ListView Name="ListViewOMeni" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Image Name="imageProfilnaSlika" Height="142" Width="149"/>
+            <Button Name="buttonNaloziProfilnoSliko" Content="Naloži" Height="19" Width="74" Click="buttonNaloziProfilnoSliko_Click"/>
+            <Label Content="Ime:"/>
+            <TextBox Name="textBoxIme" Width="71"/>
+            <Label Content="Priimek:"/>
+            <TextBox Name="textBoxPriimek" Width="71"/>
+            <Label Content="Rojstni kraj:"/>
+            <TextBox Name="textBoxRojstniKraj" Width="71"/>
+            <Button Name="Button_Shrani_O_Meni" Content="Shrani" Height="36" Width="118" Click="Button_Shrani_O_Meni_Click"/>
+        </ListView>
+    </Grid>
+</UserControl>
